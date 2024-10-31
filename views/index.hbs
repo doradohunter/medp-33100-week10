@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Express App</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+    <h1>My Todo List</h1>
+    <div>
+        <input type="text" name="todo" id="todo_input">
+        <button id="add_button" type="submit">Add</button>
+    </div>
+    <ul id="todo_list">
+        {{#each todos}}
+        <li data-completed="{{this.completed}}">{{this.title}}</li>
+        {{/each}}
+    </ul>
+
+    <script src="/javascripts/script.js"></script>
+</body>
+
+</html>

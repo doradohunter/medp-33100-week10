@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Take out the trash",
+    "completed": true
+  },
+  {
+    "title": "Feed the dog",
+    "completed": false
+  },
+  {
+    "title": "Do homework",
+    "completed": false
+  }
+]

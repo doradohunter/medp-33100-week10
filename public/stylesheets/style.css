@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  color: red;
+}
+
+#todo_list li {
+  cursor: pointer;
+}
+
+#todo_list li[data-completed="true"] {
+  text-decoration: line-through;
+}
