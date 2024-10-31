@@ -16,7 +16,9 @@
     </div>
     <ul id="todo_list">
         {{#each todos}}
-        <li data-completed="{{this.completed}}">{{this.title}}</li>
+        <li data-completed="{{this.completed}}" data-id="{{this.id}}">
+            <span class="item">{{this.title}}</span><button class="delete_button">X</button>
+        </li>
         {{/each}}
     </ul>
 

@@ -18,3 +18,7 @@ h1 {
 #todo_list li[data-completed="true"] {
   text-decoration: line-through;
 }
+
+.delete_button {
+  margin-left: 0.5em;
+}
